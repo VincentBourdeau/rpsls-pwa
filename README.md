@@ -48,6 +48,21 @@ This challenge is completely free. Please share it with anyone who will find it 
 
 **Have fun building!** 🚀
 
+## Built With
+
+<h1 align="center">bento-starter</h1>
+:point_right: [https://github.com/kefranabg/bento-starter)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kefranabg/bento-starter/master/src/assets/img/bento-starter.svg?sanitize=true" alt="Bento-starter"/>
+</p>
+
+<br />
+
+> :bento: **bento-starter** is an Open-Source Full-Stack solution that helps you to build fast and maintainable web applications using tools like Vue.js, Firebase, Progressive Web Apps support, dynamic offline support... The goal of this project is to provide a powerful and well configured stack (with CI/CD, hosting...) so you can focus on writing your web application very quickly.
+
+> As this project is a template project and not a CLI, you have access to the entire app configuration so you can change it according to your needs.
+
 ## Demo
 
 :point_right: [https://rpsls-b4af9.web.app/)
