@@ -67,7 +67,7 @@ This challenge is completely free. Please share it with anyone who will find it 
 
 :point_right: [https://rpsls-b4af9.web.app/)
 
-Install the PWA demo from Google Play Store :point_right: [bento-starter Google Play Store](https://play.google.com/store/apps/details?id=com.vincentbourdeau.rpsls)
+Install the PWA demo from Google Play Store :point_right: [RPSLS Google Play Store](https://play.google.com/store/apps/details?id=com.vincentbourdeau.rpsls)
 
 <br />
 
