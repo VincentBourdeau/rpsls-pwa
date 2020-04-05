@@ -109,8 +109,8 @@ export default {
     border-color: #2c3e50;
 
     &:hover {
-      color: $vue-color;
-      border-color: $vue-color;
+      color: #46bd87;
+      border-color: #46bd87;
     }
   }
 }

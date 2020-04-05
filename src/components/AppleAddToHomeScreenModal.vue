@@ -33,9 +33,14 @@ export default {
 <style lang="scss" scoped>
 .modal-wrapper {
   box-shadow: 0px 0px 20px 0px #656565;
-  margin: 30px;
+  margin: 0;
   background: white;
-  position: relative;
+  width: 90%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  z-index: 99;
 
   .close {
     position: absolute;

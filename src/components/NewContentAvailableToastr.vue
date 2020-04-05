@@ -26,6 +26,13 @@ export default {
   display: inline-block;
   border-radius: 4px;
 
+  width: 90%;
+  position: fixed;
+  top: 2%;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  z-index: 999;
+
   .refresh-btn {
     text-decoration: underline;
     cursor: pointer;

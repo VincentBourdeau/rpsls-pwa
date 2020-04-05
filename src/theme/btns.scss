@@ -1,0 +1,21 @@
+.app-btn {
+  padding: 7px 25px;
+  border: 1px solid #fff;
+  border-radius: 7px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+
+  transform: scale(1);
+  transition: transform 0.35s ease 0s;
+  will-change: transform;
+  backface-visibility: hidden;
+
+  @media screen and (min-width: 768px) {
+    &:hover {
+      transform: scale(0.9756);
+    }
+  }
+}

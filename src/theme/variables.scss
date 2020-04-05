@@ -1,11 +1,40 @@
-/* Misc */
+// App Front-end Style Guide
 
-$vue-color: #46bd87;
-$danger-color: #ea4d46;
+// Layout
 
-/* Navbar */
+$mobile: 375px;
+$desktop: 1366px;
 
-$navbar-height: 3.6rem;
-$navbar-color: #fff;
-$navbar-offline-color: #333;
-$navbar-link-color: #2c3e50;
+// Colors
+
+// Primary
+
+$scissors: hsl(39, 89%, 49%);
+$scissors-light: hsl(40, 84%, 53%);
+
+$paper: hsl(230, 89%, 62%);
+$paper-light: hsl(230, 89%, 65%);
+
+$rock: hsl(349, 71%, 52%);
+$rock-light: hsl(349, 70%, 56%);
+
+$lizard: hsl(261, 73%, 60%);
+$lizard-light: hsl(261, 72%, 63%);
+
+$spock: hsl(189, 59%, 53%);
+$spock-light: hsl(189, 58%, 57%);
+
+// Neutral
+
+$dark-text: hsl(229, 25%, 31%);
+$score-text: hsl(229, 64%, 46%);
+$header-outline: hsl(217, 16%, 45%);
+
+// Background
+
+$radial-gradient: hsl(214, 47%, 23%);
+$radial-gradient-alternate: hsl(237, 49%, 15%);
+
+// Fonts
+
+$font-stack: 'Barlow Semi Condensed', sans-serif;
