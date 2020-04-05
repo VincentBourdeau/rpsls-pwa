@@ -56,12 +56,6 @@ Install the PWA demo from Google Play Store :point_right: [bento-starter Google 
 
 <br />
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/9840435/56022522-30ba0980-5d0c-11e9-8c61-23a9f91a926f.gif" alt="demo"/>
-</p>
-
-<br />
-
 **Lighthouse score :**
 
 ![Lighthouse score](https://raw.githubusercontent.com/kefranabg/bento-starter/master/resources/lighthouse-score-report.jpg)
