@@ -92,7 +92,7 @@
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         Coded by <a href="https://github.com/VincentBourdeau" target="_blank" rel="noopener noreferrer">VincentBourdeau</a>.
         <br>
-        <small>v-1.0.2
+        <small>v1.0.3
           <br>
           <span class="debug">
             Score: {{ score }}, Change: {{ change }}, Modifier: {{ modifier }}
@@ -166,8 +166,8 @@ export default {
     $route: {
       handler($route) {
         if ($route) {
-          if (localStorage.getItem('rpsls_player_score')) {
-            this.score = parseInt(localStorage.getItem('rpsls_player_score'), 2)
+          if (window.localStorage.getItem('rpslsPlayerScore')) {
+            this.score = parseInt(window.localStorage.getItem('rpslsPlayerScore'), 2)
           }
         }
       },
@@ -212,7 +212,7 @@ export default {
       }
 
       // Persist score using LocalStorage
-      localStorage.setItem('rpsls_player_score', this.score)
+      window.localStorage.setItem('rpslsPlayerScore', this.score)
 
       this.change = (1 * this.modifier)
       this.modifier = 1
@@ -226,8 +226,8 @@ export default {
   },
   computed: mapState('app', ['appTitle']),
   created() {
-    if (localStorage.getItem('rpsls_player_score')) {
-      this.score = parseInt(localStorage.getItem('rpsls_player_score'), 2)
+    if (window.localStorage.getItem('rpslsPlayerScore')) {
+      this.score = parseInt(window.localStorage.getItem('rpslsPlayerScore'), 0)
     }
   }
 }
