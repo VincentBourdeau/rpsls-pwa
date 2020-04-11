@@ -162,6 +162,18 @@ export default {
       showRules: false
     }
   },
+  watch: {
+    $route: {
+      handler($route) {
+        if ($route) {
+          if (localStorage.getItem('rpsls_player_score')) {
+            this.score = parseInt(localStorage.getItem('rpsls_player_score'), 2)
+          }
+        }
+      },
+      immediate: true
+    }
+  },
   methods: {
     playerChoose(choice) {
       this.playerChoice = choice
@@ -200,7 +212,7 @@ export default {
       }
 
       // Persist score using LocalStorage
-      window.localStorage.setItem('rpsls_player_score', this.score)
+      localStorage.setItem('rpsls_player_score', this.score)
 
       this.change = (1 * this.modifier)
       this.modifier = 1
@@ -213,9 +225,9 @@ export default {
     }
   },
   computed: mapState('app', ['appTitle']),
-  mounted() {
-    if (window.localStorage.getItem('rpsls_player_score')) {
-      this.score = window.localStorage.getItem('rpsls_player_score')
+  created() {
+    if (localStorage.getItem('rpsls_player_score')) {
+      this.score = parseInt(localStorage.getItem('rpsls_player_score'), 2)
     }
   }
 }
