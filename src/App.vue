@@ -2,9 +2,9 @@
   <div id="app">
     <nav-bar></nav-bar>
 
-    <main class="main-wrapper">
+    <div class="main-wrapper">
       <router-view />
-    </main>
+    </div>
 
     <new-content-available-toastr
       v-if="newContentAvailable"
