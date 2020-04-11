@@ -92,7 +92,7 @@
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         Coded by <a href="https://github.com/VincentBourdeau" target="_blank" rel="noopener noreferrer">VincentBourdeau</a>.
         <br>
-        <small>v.1.0.1</small>
+        <small>v-1.0.2</small>
       </div>
 
       <a @click.stop.prevent="showRules = false" class="close" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path fill="#3B4262" fill-rule="evenodd" d="M16.97 0l2.122 2.121-7.425 7.425 7.425 7.425-2.121 2.12-7.425-7.424-7.425 7.425L0 16.97l7.425-7.425L0 2.121 2.121 0l7.425 7.425L16.971 0z" opacity=".25"/></svg></a>
