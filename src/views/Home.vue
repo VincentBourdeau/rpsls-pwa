@@ -179,6 +179,7 @@ export default {
         return
       }
 
+      // Score
       if (this.values[this.playerChoice].beats.includes(this.botChoice)) {
         this.result = 'Win'
         this.score = this.score + (1 * this.modifier)
@@ -193,6 +194,9 @@ export default {
         }
       }
 
+      // Persist score using LocalStorage
+      window.localStorage.setItem('rpsls_player_score', this.score)
+
       this.change = (1 * this.modifier)
       this.modifier = 1
     },
@@ -203,7 +207,12 @@ export default {
       this.gameState = 'player'
     }
   },
-  computed: mapState('app', ['appTitle'])
+  computed: mapState('app', ['appTitle']),
+  mounted() {
+    if (window.localStorage.getItem('rpsls_player_score')) {
+      this.score = window.localStorage.getItem('rpsls_player_score')
+    }
+  }
 }
 </script>
 
