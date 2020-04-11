@@ -211,11 +211,11 @@ export default {
         }
       }
 
-      // Persist score using LocalStorage
-      window.localStorage.setItem('rpslsPlayerScore', this.score)
-
       this.change = (1 * this.modifier)
       this.modifier = 1
+
+      // Persist score using LocalStorage
+      window.localStorage.setItem('rpslsPlayerScore', this.score)
     },
     newGame() {
       this.playerChoice = null
